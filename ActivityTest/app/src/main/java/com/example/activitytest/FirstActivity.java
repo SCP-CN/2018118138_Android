@@ -22,11 +22,11 @@ public class FirstActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 //standard模式要用到的按钮形式
-                Intent intent = new Intent(FirstActivity.this,FirstActivity.class);
-                startActivity(intent);
-                //singleTop模式要用的按钮形式
-                //Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
+                //Intent intent = new Intent(FirstActivity.this,FirstActivity.class);
 
+                //singleTop模式要用的按钮形式
+                Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
+                startActivity(intent);
 
             }
         });

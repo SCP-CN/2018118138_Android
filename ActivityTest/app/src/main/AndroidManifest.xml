@@ -13,7 +13,7 @@
             android:label="第三活动"></activity>
         <activity android:name=".SecondActivity"
             android:label="第二活动"
-            android:launchMode="singleInstance">
+            ><!--android:launchMode="singleInstance"-->
             <intent-filter>
                 <action android:name="com.example.activitytest.ACTION_START" />
 
@@ -25,7 +25,7 @@
             android:name=".FirstActivity"
             android:label="第一活动"
 
-            > <!-- 设置FirstActivity活动启动模式android:launchMode="singleTask" -->
+            android:launchMode="singleTop"> <!-- 设置FirstActivity活动启动模式 -->
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

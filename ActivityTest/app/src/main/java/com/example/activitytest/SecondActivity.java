@@ -13,12 +13,12 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("SecondActivity","Task id is " + getTaskId());
+        Log.d("SecondActivity","Task id is " + getTaskId()+this.toString());
         setContentView(R.layout.second_layout);
         Button button2 = (Button) findViewById(R.id.button_2);
         button2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent = new Intent(SecondActivity.this,ThirdActivity.class);
+                Intent intent = new Intent(SecondActivity.this,FirstActivity.class);
                 startActivity(intent);
             }
         });
