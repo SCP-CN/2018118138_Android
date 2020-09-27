@@ -18,7 +18,7 @@ public class SecondActivity extends AppCompatActivity {
         Button button2 = (Button) findViewById(R.id.button_2);
         button2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent = new Intent(SecondActivity.this,FirstActivity.class);
+                Intent intent = new Intent(SecondActivity.this,ThirdActivity.class);
                 startActivity(intent);
             }
         });
