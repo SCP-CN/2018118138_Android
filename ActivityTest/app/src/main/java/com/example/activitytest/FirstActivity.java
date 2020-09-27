@@ -33,7 +33,7 @@ public class FirstActivity extends AppCompatActivity {
     }
     public void onRestart(){
         super.onRestart();
-        Log.d("TheActivity","onRestart");
+        Log.d("FirstActivity","onRestart");
     }
     public boolean onCreateOptionsMenu(android.view.Menu menu){
         getMenuInflater().inflate(R.menu.main, menu);

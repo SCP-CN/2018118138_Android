@@ -25,6 +25,6 @@ public class SecondActivity extends AppCompatActivity {
     }
     public void onDestroy(){
         super.onDestroy();
-        Log.d("TheActivity","onDestroy");
+        Log.d("SecondActivity","onDestroy");
     }
 }
