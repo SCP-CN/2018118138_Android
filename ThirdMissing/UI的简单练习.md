@@ -8,7 +8,7 @@
 <br/>
 ![整体效果图](/ThirdMissing/img/all.png)
 <br/>
-布局中需要注意，如果全局布局是垂直布局，那么在放置其它布局或控件时应该注意在其layout_height的设置中不能采用match_parent，否则在其以下的其它布局或者控件会被挤出屏幕,用户将无法看到和操作。
+布局中需要注意，如果全局布局是垂直布局，那么在放置其它布局或控件时应该注意在其layout_height的设置中不能采用match_parent，否则在其以下的其它布局或者控件会被挤出屏幕,用户将无法看到和操作。水平布局时同样要注意layout_width的设置。
 <br/>
 
 ## TextView
@@ -19,6 +19,7 @@
 	android:textSize="20sp" 
 ```
 <br/>
+
 ![区域1](/ThirdMissing/img/1.png)
 
 ## EditText
