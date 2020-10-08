@@ -6,7 +6,7 @@
 布局最外层采用垂直布局，一共四个区域，1放置了TextView，2是一个水平布局，里面放置了EditText和Button，3是ImageView和4的切换图片的Button。
 整体效果如下：
 <br/>
-![整体效果图](/ThirdMissing/img/all.jpg)
+![整体效果图](/ThirdMissing/img/all.png)
 <br/>
 布局中需要注意，如果全局布局是垂直布局，那么在放置其它布局或控件时应该注意在其layout_height的设置中不能采用match_parent，否则在其以下的其它布局或者控件会被挤出屏幕,用户将无法看到和操作。
 <br/>
@@ -37,4 +37,4 @@
 ## AlertDialog
 AlertDialog可以在当前界面弹出一个对话框，这个对话框是置顶于所有界面元素之上的，能屏蔽掉其它控件的交互能力，因此它一般都是用于提示一些非常重要的信息。实验中将其与退出程序联系起来，在界面按下back键会弹出对话框，按是退出程序，否则只关闭对话框。
 <br/>
-![对话框](/ThirdMissing/img/alertDialog.jpg)
+![对话框](/ThirdMissing/img/alertDialog.png)
