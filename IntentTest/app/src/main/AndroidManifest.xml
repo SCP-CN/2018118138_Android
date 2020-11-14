@@ -15,7 +15,6 @@
         <activity android:name=".IntentActivity2">
             <intent-filter>
                 <action android:name="com.example.intenttest.ACTION_START" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="com.example.intenttest.MY_CATEGORY" />
             </intent-filter>
