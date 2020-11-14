@@ -10,7 +10,7 @@
 项目：[ActivityTest](https://github.com/SCP-CN/2018118138_Android/tree/master/ActivityTest)
 
 ## Intent的应用
-项目：[Intent](https://github.com/SCP-CN/2018118138_Android/tree/master/IntentTest)
+项目：[IntentTest](https://github.com/SCP-CN/2018118138_Android/tree/master/IntentTest)
 
 ## 第三次作业：UI的简单练习
 项目：[ThirdMissing](https://github.com/SCP-CN/2018118138_Android/tree/master/ThirdMissing)
