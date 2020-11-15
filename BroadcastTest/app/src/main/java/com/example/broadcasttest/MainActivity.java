@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new
                         Intent("com.example.broadcasttest.MY_BROADCAST");
-                intent.setComponent(new
-                        ComponentName("com.example.broadcasttest","com.example.broadcasttest.MyBroadcastReceiver"));
-                sendBroadcast(intent);
+                //intent.setComponent(new
+                  //      ComponentName("com.example.broadcasttest","com.example.broadcasttest.MyBroadcastReceiver"));
+                sendBroadcast(intent,"com.example.broadcasttest.MY_BROADCAST");
             }
         });
     }

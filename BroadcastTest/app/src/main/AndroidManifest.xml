@@ -3,6 +3,11 @@
     package="com.example.broadcasttest">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.example.broadcasttest.MY_BROADCAST"/>
+    <permission
+        android:name="com.example.broadcasttest.MY_BROADCAST"
+        android:protectionLevel="signature" >
+    </permission>
 
     <application
         android:allowBackup="true"
