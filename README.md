@@ -20,3 +20,6 @@
 
 ## 广播：系统广播与自定义广播的应用
 项目:[BroadcastTest](https://github.com/SCP-CN/2018118138_Android/tree/master/BroadcastTest)
+
+## 线程：消息处理机制和多线程之间的数据交换
+项目:[ThreadTest](https://github.com/SCP-CN/2018118138_Android/tree/master/ThreadTest)
