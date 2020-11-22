@@ -24,5 +24,5 @@
 ## 线程：消息处理机制和多线程之间的数据交换
 项目:[ThreadTest](https://github.com/SCP-CN/2018118138_Android/tree/master/ThreadTest)
 
-## # AsyncTask——异步执行下载任务
+## AsyncTask——异步执行下载任务
 项目：[AsyncTaskTest](https://github.com/SCP-CN/2018118138_Android/tree/master/AsyncTaskTest)
