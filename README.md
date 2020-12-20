@@ -2,11 +2,13 @@
 
 ## 第一个程序:HelloWorld
 项目：[HelloWorld](https://github.com/SCP-CN/2018118138_Android/tree/master/HelloWorld)
-文档：[HelloWorld程序展示](https://github.com/SCP-CN/2018118138_Android/tree/master/HelloWorld程序展示.md)
+<br/>
+文档：[HelloWorld程序展示](https://github.com/SCP-CN/2018118138_Android/tree/master/HelloWorld程序展示)
 
 ## 第一次作业：活动的生命周期观察
 项目：[ActivityLifeTest](https://github.com/SCP-CN/2018118138_Android/tree/master/ActivityLifeTest)
-文档：[活动生命周期观察](https://github.com/SCP-CN/2018118138_Android/tree/master/活动生命周期观察.md)
+<br/>
+文档：[活动生命周期观察](https://github.com/SCP-CN/2018118138_Android/tree/master/活动生命周期观察)
 
 ## 第二次作业：活动的四种启动模式
 项目：[ActivityTest](https://github.com/SCP-CN/2018118138_Android/tree/master/ActivityTest)
